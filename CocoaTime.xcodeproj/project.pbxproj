@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFF1A40F1B4F83AF00E6CED0 /* BlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF1A40E1B4F83AF00E6CED0 /* BlockTests.m */; };
+		CFF1A4121B4F8F3900E6CED0 /* CocoaTimeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF1A4111B4F8F3900E6CED0 /* CocoaTimeResult.m */; };
 		DD340F721B4C6E20002358CE /* CocoaTime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD340F711B4C6E20002358CE /* CocoaTime.h */; };
 		DD340F741B4C6E20002358CE /* CocoaTime.m in Sources */ = {isa = PBXBuildFile; fileRef = DD340F731B4C6E20002358CE /* CocoaTime.m */; };
 		DD340F7A1B4C6E20002358CE /* libCocoaTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD340F6E1B4C6E20002358CE /* libCocoaTime.a */; };
@@ -36,6 +38,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CFF1A40E1B4F83AF00E6CED0 /* BlockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTests.m; sourceTree = "<group>"; };
+		CFF1A4101B4F8F3900E6CED0 /* CocoaTimeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaTimeResult.h; sourceTree = "<group>"; };
+		CFF1A4111B4F8F3900E6CED0 /* CocoaTimeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaTimeResult.m; sourceTree = "<group>"; };
 		DD340F6E1B4C6E20002358CE /* libCocoaTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocoaTime.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD340F711B4C6E20002358CE /* CocoaTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocoaTime.h; sourceTree = "<group>"; };
 		DD340F731B4C6E20002358CE /* CocoaTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaTime.m; sourceTree = "<group>"; };
@@ -85,6 +90,8 @@
 			children = (
 				DD340F711B4C6E20002358CE /* CocoaTime.h */,
 				DD340F731B4C6E20002358CE /* CocoaTime.m */,
+				CFF1A4101B4F8F3900E6CED0 /* CocoaTimeResult.h */,
+				CFF1A4111B4F8F3900E6CED0 /* CocoaTimeResult.m */,
 			);
 			path = CocoaTime;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				DD340F7E1B4C6E20002358CE /* Supporting Files */,
+				CFF1A40E1B4F83AF00E6CED0 /* BlockTests.m */,
 			);
 			path = CocoaTimeTests;
 			sourceTree = "<group>";
@@ -194,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD340F741B4C6E20002358CE /* CocoaTime.m in Sources */,
+				CFF1A4121B4F8F3900E6CED0 /* CocoaTimeResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFF1A40F1B4F83AF00E6CED0 /* BlockTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +372,7 @@
 				DD340F841B4C6E20002358CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD340F851B4C6E20002358CE /* Build configuration list for PBXNativeTarget "CocoaTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +381,7 @@
 				DD340F871B4C6E20002358CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
