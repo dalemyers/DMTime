@@ -33,10 +33,6 @@ it, simply add the following line to your Podfile:
 pod "DMTime"
 ```
 
-## Author
-
-Vel0x, DaleMyers19@gmail.com
-
 ## License
 
 DMTime is available under the MIT license. See the LICENSE file for more info.
