@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FAB0C14D27D64456D80EE83 /* DMTime.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7493FA8FEBE548801C154163 /* DMTime.bundle */; };
+		2B44D94172BEFE72C9FA2D64 /* Pods-DMTime_Tests-DMTime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D4E82933D69F39B74AA305 /* Pods-DMTime_Tests-DMTime-dummy.m */; };
+		3AB4C5247D40695CEBCAAA01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3D5ACE31765A6851C78303 /* Foundation.framework */; };
+		4953F366315352513E28C896 /* Pods-DMTime_Tests-DMTime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BB668ECB8606457A4D09CD1 /* Pods-DMTime_Tests-DMTime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E33E804CCB479DF03C7956F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3D5ACE31765A6851C78303 /* Foundation.framework */; };
+		7D19D2440EF22815FD0226A7 /* Pods-DMTime_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C775743B99DA1334D86BFF9B /* Pods-DMTime_Tests-dummy.m */; };
+		9B7766229C93330276E9F5BB /* Pods-DMTime_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E954E0743C42309C90984FA /* Pods-DMTime_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF8EA2FD1B51F53800A31073 /* DMTime.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8EA2F91B51F53800A31073 /* DMTime.h */; };
+		CF8EA2FF1B51F53800A31073 /* DMTimeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = CF8EA2FB1B51F53800A31073 /* DMTimeResult.h */; };
+		CF8EA3011B51F54300A31073 /* DMTimeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8EA2FC1B51F53800A31073 /* DMTimeResult.m */; };
+		CF8EA3021B51F54900A31073 /* DMTime.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8EA2FA1B51F53800A31073 /* DMTime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45C6BFEA3D8403614DB04F76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D2694B26CC4A3258A63CDFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB4EA6A88940BD61E85324A;
+			remoteInfo = "Pods-DMTime_Tests-DMTime-DMTime";
+		};
+		F6F44A35B937F1A3943C5291 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D2694B26CC4A3258A63CDFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AB0832C7D712A27F5961AFC;
+			remoteInfo = "Pods-DMTime_Tests-DMTime";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0890242CAC25563C0D49070B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BECD82C4CC582D1169D0923 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F3F4943115338FC4A5E57D2 /* Pods-DMTime_Tests-DMTime.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMTime_Tests-DMTime.xcconfig"; sourceTree = "<group>"; };
+		29D4E82933D69F39B74AA305 /* Pods-DMTime_Tests-DMTime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMTime_Tests-DMTime-dummy.m"; sourceTree = "<group>"; };
+		35F92EA4B1AA7DD5AEE86F93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7961450DDBE0D11D05F546 /* Pods-DMTime_Tests-DMTime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DMTime_Tests-DMTime.modulemap"; sourceTree = "<group>"; };
+		404F1194E68E64CC2FFAFCE8 /* Pods-DMTime_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMTime_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4C63BF47E29974E96048C9AA /* Pods-DMTime_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DMTime_Tests.modulemap"; sourceTree = "<group>"; };
+		4E954E0743C42309C90984FA /* Pods-DMTime_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMTime_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5D8BC914BEBE1F63B3F47766 /* Pods-DMTime_Tests-DMTime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMTime_Tests-DMTime-prefix.pch"; sourceTree = "<group>"; };
+		618FFA434F0D832CAA6472B9 /* Pods-DMTime_Tests-DMTime-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMTime_Tests-DMTime-Private.xcconfig"; sourceTree = "<group>"; };
+		68B31C2474446DA83B6B9497 /* Pods_DMTime_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMTime_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BF57D8F607890BCB82A5CF /* Pods-DMTime_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMTime_Tests-resources.sh"; sourceTree = "<group>"; };
+		6BB668ECB8606457A4D09CD1 /* Pods-DMTime_Tests-DMTime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMTime_Tests-DMTime-umbrella.h"; sourceTree = "<group>"; };
+		7493FA8FEBE548801C154163 /* DMTime.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMTime.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		78520D0A00CD837C8FCB6782 /* Pods-DMTime_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMTime_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AE3D5ACE31765A6851C78303 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C2EA657A1387DA212BAECC71 /* DMTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C775743B99DA1334D86BFF9B /* Pods-DMTime_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMTime_Tests-dummy.m"; sourceTree = "<group>"; };
+		CF8EA2F91B51F53800A31073 /* DMTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTime.h; sourceTree = "<group>"; };
+		CF8EA2FA1B51F53800A31073 /* DMTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTime.m; sourceTree = "<group>"; };
+		CF8EA2FB1B51F53800A31073 /* DMTimeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTimeResult.h; sourceTree = "<group>"; };
+		CF8EA2FC1B51F53800A31073 /* DMTimeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTimeResult.m; sourceTree = "<group>"; };
+		D8FC14C0AA2F654A467F13AC /* Pods-DMTime_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DMTime_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7BA2A913BB13C942DF66576 /* Pods-DMTime_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMTime_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC098C2AA8ABF0AD8902830B /* Pods-DMTime_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMTime_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDB1999344B72C44EDA89B4E /* Pods-DMTime_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMTime_Tests-environment.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6837FA0841B3F97FF377337F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E33E804CCB479DF03C7956F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E454F4226AFB3C513FF5A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1580FF5429F4389C350C552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB4C5247D40695CEBCAAA01 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E9DE9ABF4EE8EB503EDE38D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF8EA2F91B51F53800A31073 /* DMTime.h */,
+				CF8EA2FA1B51F53800A31073 /* DMTime.m */,
+				CF8EA2FB1B51F53800A31073 /* DMTimeResult.h */,
+				CF8EA2FC1B51F53800A31073 /* DMTimeResult.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0F922317ADCDBA4F4E526870 /* DMTime */ = {
+			isa = PBXGroup;
+			children = (
+				251E8EA88D6F50E74097CD5C /* Pod */,
+				DD84B2E3418045F1B83B5B77 /* Support Files */,
+			);
+			name = DMTime;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		251E8EA88D6F50E74097CD5C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E9DE9ABF4EE8EB503EDE38D /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4E09F09D01F8E6FE62ED7943 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D06AA23BE4192B95A03058A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98E0B7C8AD36D213ED89E5D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7493FA8FEBE548801C154163 /* DMTime.bundle */,
+				C2EA657A1387DA212BAECC71 /* DMTime.framework */,
+				68B31C2474446DA83B6B9497 /* Pods_DMTime_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B284003FAEC4CF127E80C84 /* Pods-DMTime_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0890242CAC25563C0D49070B /* Info.plist */,
+				4C63BF47E29974E96048C9AA /* Pods-DMTime_Tests.modulemap */,
+				D8FC14C0AA2F654A467F13AC /* Pods-DMTime_Tests-acknowledgements.markdown */,
+				E7BA2A913BB13C942DF66576 /* Pods-DMTime_Tests-acknowledgements.plist */,
+				C775743B99DA1334D86BFF9B /* Pods-DMTime_Tests-dummy.m */,
+				EDB1999344B72C44EDA89B4E /* Pods-DMTime_Tests-environment.h */,
+				404F1194E68E64CC2FFAFCE8 /* Pods-DMTime_Tests-frameworks.sh */,
+				69BF57D8F607890BCB82A5CF /* Pods-DMTime_Tests-resources.sh */,
+				4E954E0743C42309C90984FA /* Pods-DMTime_Tests-umbrella.h */,
+				EC098C2AA8ABF0AD8902830B /* Pods-DMTime_Tests.debug.xcconfig */,
+				78520D0A00CD837C8FCB6782 /* Pods-DMTime_Tests.release.xcconfig */,
+			);
+			name = "Pods-DMTime_Tests";
+			path = "Target Support Files/Pods-DMTime_Tests";
+			sourceTree = "<group>";
+		};
+		9D06AA23BE4192B95A03058A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D5ACE31765A6851C78303 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9EF0245A768BD499F8AB1EC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B284003FAEC4CF127E80C84 /* Pods-DMTime_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DD84B2E3418045F1B83B5B77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35F92EA4B1AA7DD5AEE86F93 /* Info.plist */,
+				3F7961450DDBE0D11D05F546 /* Pods-DMTime_Tests-DMTime.modulemap */,
+				1F3F4943115338FC4A5E57D2 /* Pods-DMTime_Tests-DMTime.xcconfig */,
+				618FFA434F0D832CAA6472B9 /* Pods-DMTime_Tests-DMTime-Private.xcconfig */,
+				29D4E82933D69F39B74AA305 /* Pods-DMTime_Tests-DMTime-dummy.m */,
+				5D8BC914BEBE1F63B3F47766 /* Pods-DMTime_Tests-DMTime-prefix.pch */,
+				6BB668ECB8606457A4D09CD1 /* Pods-DMTime_Tests-DMTime-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DMTime_Tests-DMTime";
+			sourceTree = "<group>";
+		};
+		F41425A64DBD923C7A9B8E43 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F922317ADCDBA4F4E526870 /* DMTime */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F83F56CC025F07B8BBC7A7E6 = {
+			isa = PBXGroup;
+			children = (
+				0BECD82C4CC582D1169D0923 /* Podfile */,
+				F41425A64DBD923C7A9B8E43 /* Development Pods */,
+				4E09F09D01F8E6FE62ED7943 /* Frameworks */,
+				98E0B7C8AD36D213ED89E5D3 /* Products */,
+				9EF0245A768BD499F8AB1EC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E6F1B1813E93BC88D0B2485 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8EA2FF1B51F53800A31073 /* DMTimeResult.h in Headers */,
+				9B7766229C93330276E9F5BB /* Pods-DMTime_Tests-umbrella.h in Headers */,
+				CF8EA2FD1B51F53800A31073 /* DMTime.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E118D4A694E23A9D5F5D2864 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4953F366315352513E28C896 /* Pods-DMTime_Tests-DMTime-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		071878074FCCB42441102139 /* Pods-DMTime_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334FBFB48A6DCA73B88A4DA1 /* Build configuration list for PBXNativeTarget "Pods-DMTime_Tests" */;
+			buildPhases = (
+				62FE254C85966236547F1100 /* Sources */,
+				A1580FF5429F4389C350C552 /* Frameworks */,
+				5E6F1B1813E93BC88D0B2485 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C3CEFCE91143A3AA3CBBC6E /* PBXTargetDependency */,
+			);
+			name = "Pods-DMTime_Tests";
+			productName = "Pods-DMTime_Tests";
+			productReference = 68B31C2474446DA83B6B9497 /* Pods_DMTime_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2AB0832C7D712A27F5961AFC /* Pods-DMTime_Tests-DMTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E775863DF6E3C9FE744D814 /* Build configuration list for PBXNativeTarget "Pods-DMTime_Tests-DMTime" */;
+			buildPhases = (
+				927F1AB88D9ED28229C6ACB1 /* Sources */,
+				6837FA0841B3F97FF377337F /* Frameworks */,
+				F5BD71A11051DBFAAB175CBC /* Resources */,
+				E118D4A694E23A9D5F5D2864 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86D0C9F2F5BF260D7566606E /* PBXTargetDependency */,
+			);
+			name = "Pods-DMTime_Tests-DMTime";
+			productName = "Pods-DMTime_Tests-DMTime";
+			productReference = C2EA657A1387DA212BAECC71 /* DMTime.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5CB4EA6A88940BD61E85324A /* Pods-DMTime_Tests-DMTime-DMTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303FE9DF81548D38E5A0EC72 /* Build configuration list for PBXNativeTarget "Pods-DMTime_Tests-DMTime-DMTime" */;
+			buildPhases = (
+				B0B040EC6185228A36C24113 /* Sources */,
+				6E454F4226AFB3C513FF5A29 /* Frameworks */,
+				A21E023AB44ED1E0D3617F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DMTime_Tests-DMTime-DMTime";
+			productName = "Pods-DMTime_Tests-DMTime-DMTime";
+			productReference = 7493FA8FEBE548801C154163 /* DMTime.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D2694B26CC4A3258A63CDFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 4F883FFD24C41099872FF268 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F83F56CC025F07B8BBC7A7E6;
+			productRefGroup = 98E0B7C8AD36D213ED89E5D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				071878074FCCB42441102139 /* Pods-DMTime_Tests */,
+				2AB0832C7D712A27F5961AFC /* Pods-DMTime_Tests-DMTime */,
+				5CB4EA6A88940BD61E85324A /* Pods-DMTime_Tests-DMTime-DMTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21E023AB44ED1E0D3617F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BD71A11051DBFAAB175CBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAB0C14D27D64456D80EE83 /* DMTime.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62FE254C85966236547F1100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D19D2440EF22815FD0226A7 /* Pods-DMTime_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927F1AB88D9ED28229C6ACB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8EA3011B51F54300A31073 /* DMTimeResult.m in Sources */,
+				2B44D94172BEFE72C9FA2D64 /* Pods-DMTime_Tests-DMTime-dummy.m in Sources */,
+				CF8EA3021B51F54900A31073 /* DMTime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0B040EC6185228A36C24113 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86D0C9F2F5BF260D7566606E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DMTime_Tests-DMTime-DMTime";
+			target = 5CB4EA6A88940BD61E85324A /* Pods-DMTime_Tests-DMTime-DMTime */;
+			targetProxy = 45C6BFEA3D8403614DB04F76 /* PBXContainerItemProxy */;
+		};
+		9C3CEFCE91143A3AA3CBBC6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DMTime_Tests-DMTime";
+			target = 2AB0832C7D712A27F5961AFC /* Pods-DMTime_Tests-DMTime */;
+			targetProxy = F6F44A35B937F1A3943C5291 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30A8DEF9359F4B8EA21556C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618FFA434F0D832CAA6472B9 /* Pods-DMTime_Tests-DMTime-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DMTime_Tests-DMTime/Pods-DMTime_Tests-DMTime-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DMTime_Tests-DMTime/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DMTime_Tests-DMTime/Pods-DMTime_Tests-DMTime.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DMTime;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EC9ABB264A3AAA96425A8F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618FFA434F0D832CAA6472B9 /* Pods-DMTime_Tests-DMTime-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DMTime_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DMTime;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		50FFD8AF0366DED688BE02DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55445AE7D9C84016F9C7B444 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		662BF811BDF4EA97C90E9F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618FFA434F0D832CAA6472B9 /* Pods-DMTime_Tests-DMTime-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DMTime_Tests-DMTime/Pods-DMTime_Tests-DMTime-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DMTime_Tests-DMTime/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DMTime_Tests-DMTime/Pods-DMTime_Tests-DMTime.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DMTime;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73C7B44F3214E0EFDCE3D1F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78520D0A00CD837C8FCB6782 /* Pods-DMTime_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DMTime_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DMTime_Tests/Pods-DMTime_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DMTime_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAD67D6721D9F5891F2C3293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618FFA434F0D832CAA6472B9 /* Pods-DMTime_Tests-DMTime-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DMTime_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DMTime;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DAFCA2947A93D543BEDABF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC098C2AA8ABF0AD8902830B /* Pods-DMTime_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DMTime_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DMTime_Tests/Pods-DMTime_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DMTime_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303FE9DF81548D38E5A0EC72 /* Build configuration list for PBXNativeTarget "Pods-DMTime_Tests-DMTime-DMTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD67D6721D9F5891F2C3293 /* Debug */,
+				3EC9ABB264A3AAA96425A8F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334FBFB48A6DCA73B88A4DA1 /* Build configuration list for PBXNativeTarget "Pods-DMTime_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAFCA2947A93D543BEDABF1F /* Debug */,
+				73C7B44F3214E0EFDCE3D1F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F883FFD24C41099872FF268 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55445AE7D9C84016F9C7B444 /* Debug */,
+				50FFD8AF0366DED688BE02DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E775863DF6E3C9FE744D814 /* Build configuration list for PBXNativeTarget "Pods-DMTime_Tests-DMTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662BF811BDF4EA97C90E9F4E /* Debug */,
+				30A8DEF9359F4B8EA21556C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D2694B26CC4A3258A63CDFA /* Project object */;
+}

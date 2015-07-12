@@ -1,0 +1,14 @@
+PODS:
+  - DMTime (0.1.0)
+
+DEPENDENCIES:
+  - DMTime (from `../`)
+
+EXTERNAL SOURCES:
+  DMTime:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DMTime: 4a2461f7b1362417dd9c6fed004de66b5548fb36
+
+COCOAPODS: 0.37.2
