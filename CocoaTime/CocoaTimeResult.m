@@ -58,22 +58,22 @@
     return timeInNanoSeconds / [CocoaTimeResult timeDivisionFactorForUnit:unit];
 }
 
-- (double)timeInNanoSeconds
+- (double)nanoseconds
 {
     return [self timeInUnits:CocoaTimeUnitNanoSeconds];
 }
 
-- (double)timeInMicroSeconds
+- (double)microseconds
 {
     return [self timeInUnits:CocoaTimeUnitMicroSeconds];
 }
 
-- (double)timeInMilliSeconds
+- (double)milliseconds
 {
     return [self timeInUnits:CocoaTimeUnitMilliSeconds];
 }
 
-- (double)timeInSeconds
+- (double)seconds
 {
     return [self timeInUnits:CocoaTimeUnitSeconds];
 }

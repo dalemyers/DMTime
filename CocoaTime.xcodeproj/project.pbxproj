@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF8988921B51F2D100187F4C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CF8988911B51F2D100187F4C /* README.md */; };
 		CFF1A40F1B4F83AF00E6CED0 /* BlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF1A40E1B4F83AF00E6CED0 /* BlockTests.m */; };
 		CFF1A4121B4F8F3900E6CED0 /* CocoaTimeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF1A4111B4F8F3900E6CED0 /* CocoaTimeResult.m */; };
 		DD340F721B4C6E20002358CE /* CocoaTime.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DD340F711B4C6E20002358CE /* CocoaTime.h */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CF8988911B51F2D100187F4C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CFF1A40E1B4F83AF00E6CED0 /* BlockTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockTests.m; sourceTree = "<group>"; };
 		CFF1A4101B4F8F3900E6CED0 /* CocoaTimeResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaTimeResult.h; sourceTree = "<group>"; };
 		CFF1A4111B4F8F3900E6CED0 /* CocoaTimeResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaTimeResult.m; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 		DD340F651B4C6E20002358CE = {
 			isa = PBXGroup;
 			children = (
+				CF8988911B51F2D100187F4C /* README.md */,
 				DD340F701B4C6E20002358CE /* CocoaTime */,
 				DD340F7D1B4C6E20002358CE /* CocoaTimeTests */,
 				DD340F6F1B4C6E20002358CE /* Products */,
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8988921B51F2D100187F4C /* README.md in Sources */,
 				DD340F741B4C6E20002358CE /* CocoaTime.m in Sources */,
 				CFF1A4121B4F8F3900E6CED0 /* CocoaTimeResult.m in Sources */,
 			);

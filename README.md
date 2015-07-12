@@ -7,11 +7,11 @@ A simple Objective-C timer for timing code.
     [CocoaTime startTimer:@"Some key"];
     // Some long running process
     CocoaTimeResult *result = [CocoaTime endTimer:@"Some key"];
-    NSLog(@"Code took %f seconds", [result timeInSeconds]);
+    NSLog(@"Code took %f seconds", [result seconds]);
 
 Or if you prefer blocks:
 
     CocoaTimeResult *result = [CocoaTime timeBlock:^{
         // Some long running process
     }];
-    NSLog(@"Code took %f milliseconds", [result timeInMilliSeconds]);
+    NSLog(@"Code took %f milliseconds", [result milliseconds]);

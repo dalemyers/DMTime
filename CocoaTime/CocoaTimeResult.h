@@ -68,7 +68,7 @@ typedef NS_ENUM(NSInteger, CocoaTimeUnit)
  *	@return The time the code block took to run in nanoseconds
  *          The value will be -1 on failure
  */
-- (double)timeInNanoSeconds;
+- (double)nanoseconds;
 
 /**
  *	@brief  The time the code block took to run in microseconds
@@ -76,7 +76,7 @@ typedef NS_ENUM(NSInteger, CocoaTimeUnit)
  *	@return The time the code block took to run in microseconds
  *          The value will be -1 on failure
  */
-- (double)timeInMicroSeconds;
+- (double)microseconds;
 
 /**
  *	@brief  The time the code block took to run in milliseconds
@@ -84,7 +84,7 @@ typedef NS_ENUM(NSInteger, CocoaTimeUnit)
  *	@return The time the code block took to run in milliseconds
  *          The value will be -1 on failure
  */
-- (double)timeInMilliSeconds;
+- (double)milliseconds;
 
 /**
  *	@brief  The time the code block took to run in seconds
@@ -92,6 +92,6 @@ typedef NS_ENUM(NSInteger, CocoaTimeUnit)
  *	@return The time the code block took to run in seconds
  *          The value will be -1 on failure
  */
-- (double)timeInSeconds;
+- (double)seconds;
 
 @end

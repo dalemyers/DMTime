@@ -37,7 +37,7 @@
         
         // I need to find something more accurate than sleep(). It seems to be
         // really bad at these kinds of values.
-        XCTAssert([result timeInSeconds] > 0.85 && [result timeInSeconds] < 1.15, @"Pass");
+        XCTAssert([result seconds] > 0.85 && [result seconds] < 1.15, @"Pass");
     }
 }
 
@@ -47,7 +47,7 @@
         CocoaTimeResult *result = [CocoaTime timeBlock:^{
             sleep(1.0);
         }];
-        XCTAssert([result timeInSeconds] > 0.9 && [result timeInSeconds] < 1.1, @"Pass");
+        XCTAssert([result seconds] > 0.9 && [result seconds] < 1.1, @"Pass");
     }
 }
 

@@ -119,7 +119,7 @@ static BOOL _initialized = NO;
     double total = 0;
     for (CocoaTimeResult *result in [CocoaTime allResultsForKey:key])
     {
-        total += [result timeInNanoSeconds];
+        total += [result nanoseconds];
     }
     
     return [[CocoaTimeResult alloc] initWithTimeInNanoSeconds:(total/[CocoaTime numberOfResultsForKey:key])];
