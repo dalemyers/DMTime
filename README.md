@@ -5,9 +5,21 @@
 [![License](https://img.shields.io/cocoapods/l/DMTime.svg?style=flat)](http://cocoapods.org/pods/DMTime)
 [![Platform](https://img.shields.io/cocoapods/p/DMTime.svg?style=flat)](http://cocoapods.org/pods/DMTime)
 
+A simple Objective-C timer for timing code
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+    [CocoaTime startTimer:@"Some key"];
+    // Some long running process
+    CocoaTimeResult *result = [CocoaTime endTimer:@"Some key"];
+    NSLog(@"Code took %f seconds", [result seconds]);
+
+Or if you prefer blocks:
+
+    CocoaTimeResult *result = [CocoaTime timeBlock:^{
+        // Some long running process
+    }];
+    NSLog(@"Code took %f milliseconds", [result milliseconds]);
 
 ## Requirements
 
