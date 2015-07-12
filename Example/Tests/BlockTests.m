@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
-#import <DMTime.h>
+#import <DMTime/DMTime.h>
 
 @interface BlockTests : XCTestCase
 
