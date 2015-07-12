@@ -1,6 +1,0 @@
-framework module DMTime {
-  umbrella header "Pods-DMTime_Tests-DMTime-umbrella.h"
-
-  export *
-  module * { export * }
-}
