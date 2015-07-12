@@ -10,7 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "DMTime"
   s.version          = "0.1.0"
-  s.summary          = "A simple Objective-C timing framework"
+  s.summary          = "A simple Objective-C timing framework. e.g. A code timer"
   s.description      = <<-DESC
                         #CocoaTime
 
@@ -36,7 +36,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/Vel0x/DMTime.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/vel0x'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
+  s.platform     = :osx, '10.8'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

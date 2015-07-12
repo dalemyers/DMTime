@@ -12,70 +12,70 @@
 
 + (int)timeDivisionFactorForUnit:(DMTimeUnit)unit
 {
-    switch (unit) {
-        case DMTimeUnitMicroSeconds:
-            return NSEC_PER_USEC;
-        case DMTimeUnitMilliSeconds:
-            return NSEC_PER_MSEC;
-        case DMTimeUnitSeconds:
-            return NSEC_PER_SEC;
-        default:
-            return 1;
-    }
+	switch (unit) {
+		case DMTimeUnitMicroSeconds:
+			return NSEC_PER_USEC;
+		case DMTimeUnitMilliSeconds:
+			return NSEC_PER_MSEC;
+		case DMTimeUnitSeconds:
+			return NSEC_PER_SEC;
+		default:
+			return 1;
+	}
 }
 
 + (instancetype)timeResultError
 {
-    return [[DMTimeResult alloc] initWithTimeInNanoSeconds:-1];
+	return [[DMTimeResult alloc] initWithTimeInNanoSeconds:-1];
 }
 
 - (instancetype)initWithTimeInNanoSeconds:(double)timeInNanoSeconds
 {
-    if (self = [super init])
-    {
-        _time = [NSNumber numberWithDouble:timeInNanoSeconds];
-        _timeUnit = DMTimeUnitNanoSeconds;
-    }
-    
-    return self;
+	if (self = [super init])
+	{
+		_time = [NSNumber numberWithDouble:timeInNanoSeconds];
+		_timeUnit = DMTimeUnitNanoSeconds;
+	}
+	
+	return self;
 }
 
 
 - (double)timeInUnits:(DMTimeUnit)unit
 {
-    if ([[self time] integerValue] == -1)
-    {
-        return -1.0;
-    }
-    
-    if ([self timeUnit] == unit)
-    {
-        return [[self time] doubleValue];
-    }
-    
-    double timeInNanoSeconds = [[self time] doubleValue] * [DMTimeResult timeDivisionFactorForUnit:[self timeUnit]];
-    
-    return timeInNanoSeconds / [DMTimeResult timeDivisionFactorForUnit:unit];
+	if ([[self time] integerValue] == -1)
+	{
+		return -1.0;
+	}
+	
+	if ([self timeUnit] == unit)
+	{
+		return [[self time] doubleValue];
+	}
+	
+	double timeInNanoSeconds = [[self time] doubleValue] * [DMTimeResult timeDivisionFactorForUnit:[self timeUnit]];
+	
+	return timeInNanoSeconds / [DMTimeResult timeDivisionFactorForUnit:unit];
 }
 
 - (double)nanoseconds
 {
-    return [self timeInUnits:DMTimeUnitNanoSeconds];
+	return [self timeInUnits:DMTimeUnitNanoSeconds];
 }
 
 - (double)microseconds
 {
-    return [self timeInUnits:DMTimeUnitMicroSeconds];
+	return [self timeInUnits:DMTimeUnitMicroSeconds];
 }
 
 - (double)milliseconds
 {
-    return [self timeInUnits:DMTimeUnitMilliSeconds];
+	return [self timeInUnits:DMTimeUnitMilliSeconds];
 }
 
 - (double)seconds
 {
-    return [self timeInUnits:DMTimeUnitSeconds];
+	return [self timeInUnits:DMTimeUnitSeconds];
 }
 
 @end

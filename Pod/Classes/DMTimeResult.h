@@ -18,12 +18,12 @@
  */
 typedef NS_ENUM(NSInteger, DMTimeUnit)
 {
-    // Nano seconds is offered, but the overhead of the timing is just too
-    // much for it to be of any real use
-    DMTimeUnitNanoSeconds,
-    DMTimeUnitMicroSeconds, // The timer adds around 250 microseconds to each timed block
-    DMTimeUnitMilliSeconds,
-    DMTimeUnitSeconds
+	// Nano seconds is offered, but the overhead of the timing is just too
+	// much for it to be of any real use
+	DMTimeUnitNanoSeconds,
+	DMTimeUnitMicroSeconds, // The timer adds around 250 microseconds to each timed block
+	DMTimeUnitMilliSeconds,
+	DMTimeUnitSeconds
 };
 
 /**
@@ -58,7 +58,7 @@ typedef NS_ENUM(NSInteger, DMTimeUnit)
  *	@param unit	The units to return the time in
  *
  *	@return The time the code block took to run in the units specified
- *          The value will be -1 on failure
+ *			The value will be -1 on failure
  */
 - (double)timeInUnits:(DMTimeUnit)unit;
 
@@ -66,7 +66,7 @@ typedef NS_ENUM(NSInteger, DMTimeUnit)
  *	@brief  The time the code block took to run in nanoseconds
  *
  *	@return The time the code block took to run in nanoseconds
- *          The value will be -1 on failure
+ *			The value will be -1 on failure
  */
 - (double)nanoseconds;
 
@@ -74,7 +74,7 @@ typedef NS_ENUM(NSInteger, DMTimeUnit)
  *	@brief  The time the code block took to run in microseconds
  *
  *	@return The time the code block took to run in microseconds
- *          The value will be -1 on failure
+ *			The value will be -1 on failure
  */
 - (double)microseconds;
 
@@ -82,7 +82,7 @@ typedef NS_ENUM(NSInteger, DMTimeUnit)
  *	@brief  The time the code block took to run in milliseconds
  *
  *	@return The time the code block took to run in milliseconds
- *          The value will be -1 on failure
+ *			The value will be -1 on failure
  */
 - (double)milliseconds;
 
@@ -90,7 +90,7 @@ typedef NS_ENUM(NSInteger, DMTimeUnit)
  *	@brief  The time the code block took to run in seconds
  *
  *	@return The time the code block took to run in seconds
- *          The value will be -1 on failure
+ *			The value will be -1 on failure
  */
 - (double)seconds;
 

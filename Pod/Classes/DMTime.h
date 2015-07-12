@@ -28,7 +28,7 @@
  *	@param key	A unique key for the block of code
  *
  *	@return The time between the startTimer: and endTimer: calls in seconds
- *          The result is -1 on failure.
+ *			The result is -1 on failure.
  */
 + (DMTimeResult*)endTimer:(NSString*)key;
 
@@ -38,7 +38,7 @@
  *	@param blockToTime	The block of code to time running
  *
  *	@return The time taken to execute the block of code, in seconds
- *          The result is -1 on failure.
+ *			The result is -1 on failure.
  */
 + (DMTimeResult*)timeBlock:(void (^)())blockToTime;
 
@@ -49,7 +49,7 @@
  *	@param unit	The time unit to format the returned result in.
  *
  *	@return The time taken to run the block of code, in the given time unit,
- *          The result is -1 on failure.
+ *			The result is -1 on failure.
  */
 + (DMTimeResult*)lastResultForKey:(NSString*)key;
 
