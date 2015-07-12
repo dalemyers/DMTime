@@ -40,7 +40,7 @@
         // I need to find something more accurate than sleep(). It seems to be
         // really bad at these kinds of values.
 		NSLog(@"Checking result. Expected: %.2f seconds. Actual: %.2f", sleepTime, [result seconds]);
-        XCTAssert([result seconds] > 0.85 && [result seconds] < 1.15, @"Pass");
+        XCTAssert([result seconds] > (sleepTime - 0.15) && [result seconds] < (sleepTime + 0.15), @"Pass");
     }
 }
 
@@ -53,7 +53,7 @@
             sleep(sleepTime);
         }];
 		NSLog(@"Checking result. Expected: %.2f seconds. Actual: %.2f", sleepTime, [result seconds]);
-        XCTAssert([result seconds] > 0.85 && [result seconds] < 1.15, @"Pass");
+		XCTAssert([result seconds] > (sleepTime - 0.15) && [result seconds] < (sleepTime + 0.15), @"Pass");
     }
 }
 
