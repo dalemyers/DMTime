@@ -8,15 +8,16 @@
 A simple Objective-C timer for timing code
 
 ## Usage
-
-    [CocoaTime startTimer:@"Some key"];
+    #import <DMTime.h>
+    ...
+    [DMTime startTimer:@"Some key"];
     // Some long running process
-    CocoaTimeResult *result = [CocoaTime endTimer:@"Some key"];
+    DMTimeResult *result = [DMTime endTimer:@"Some key"];
     NSLog(@"Code took %f seconds", [result seconds]);
 
 Or if you prefer blocks:
 
-    CocoaTimeResult *result = [CocoaTime timeBlock:^{
+    DMTimeResult *result = [DMTime timeBlock:^{
         // Some long running process
     }];
     NSLog(@"Code took %f milliseconds", [result milliseconds]);
